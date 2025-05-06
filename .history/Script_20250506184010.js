@@ -1,7 +1,7 @@
 document.querySelector('.search-box button').addEventListener('click', getWeather);
 
 async function getWeather() {
-  const apiKey = 'enter your API key here'; 
+  const apiKey = 'nter your API key heree'; 
   const city = document.getElementById('cityInput').value.trim() || 'Berlin';
 
   const tempEl = document.getElementById('temperature');
