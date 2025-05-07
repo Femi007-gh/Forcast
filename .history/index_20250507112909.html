@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>ss" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Weather App Using JavaScript</h2>
+    <div class="weather-box">
+      <div class="search-box">
+        <input type="text" id="cityInput" placdrholder="Berlin" />
+        <button>
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+
+      
+      <div id="errorMessage" style="color: gold; margin-top: 10px; font-size: 25px;"></div>
+
+      <div class="weather-info">
+        <i class="fa-solid fa-cloud-showers-heavy"></i>
+        <i class="fa-solid fa-cloud-sun"></i>
+        <i class="fa-solid fa-cloud-sun-rain"></i>
+        <i class="fa-solid fa-cloud"></i>
+
+        <h1 id="temperature">7°C</h1>
+        <h2 id="cityName">Berlin</h2>
+
+        <div class="details">
+          <div>
+            <i class="fas fa-water"></i>
+            <span id="humidity">93%</span>
+            <p>Humidity</p>
+          </div>
+          <div>
+            <i class="fas fa-wind"></i>
+            <span id="windSpeed">5.36 km/h</span>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
